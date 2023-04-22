@@ -68,7 +68,7 @@ function getInningsDetails($,inning,commonDetails,team){
    createDir(teamPath);
    
    // batsman file
-   const filepath = path.join(teamPath,`${team}.xlsx`);
+   const filepath = path.join(teamPath,`${playerName}.xlsx`);
    
    // batsman details json
    const details = {
